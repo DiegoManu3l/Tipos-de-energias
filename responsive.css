@@ -1,0 +1,941 @@
+@media screen and (min-width: 1200px) {
+    
+    #parrafos-footer {
+        width: 65%;
+        position: absolute;
+        top: 130px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 480px) { 
+
+    /* Header responsive */
+
+    #logo {
+        display: none;
+    }
+
+    #header > h1 {
+        font-size: 24px;
+        margin-left: 10%;
+    }
+
+
+    header label img {
+        width: 23px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    header label {
+        display: flex;
+        margin-left: 80%;
+        position: absolute;
+        top: 3px;
+    }    
+
+    .menu {
+        margin-top: 4px;
+        margin-left: 69%;
+        position: absolute;
+        background-color: #FAD961;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+        width: 30%;
+        display: none;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .menu ul {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu {
+        display: block;
+    } 
+
+    #navegacion a {
+        display: none;
+    }    
+
+
+
+    /* Footer resopnsive */
+    
+    #fin-pag {
+        width: 100%;
+        height: 380px;
+        background-color: #b9fff2;
+        padding: 5px;
+        position: relative;
+    }
+    
+    .tipos-footer {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #parrafos-footer {
+        position: absolute;
+        top: 90px;
+    }
+    
+    #parrafos-footer > p {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 6px;
+    }
+
+    /* Renovables */
+    
+    #renovables-footer {
+        margin-left: 13%;
+        position: absolute;
+        font-size: 12px;
+        top: 54%;
+        color: rgba(41, 180, 41, 0.8);
+    }
+
+    /* No renovables */
+
+    
+    #no-renovables-footer {
+        margin-left: 50%;
+        position: absolute;
+        top: 54%;
+        font-size: 12px;
+        color: rgba(210, 0, 0, 0.8);
+    }
+    
+    #informacion-footer > h4 {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    #informacion-footer > h3 {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+
+
+    /* Contenido principal */
+
+    #texto-introduccion > p {
+        font-size: 16px;
+    }
+
+    #energia {
+        font-size: 25px;
+    }
+
+    .que-es-la-energia {
+        font-size: 16px;
+    }
+
+    #renovables {
+        font-size: 16px;
+    }
+
+    #no-renovables {
+        font-size: 16px;
+    }
+
+    #p-energia {
+        font-size: 40px;
+        border: 3px #000 solid;
+        margin: 65px -2% 0 -2%;
+    }
+
+    #texto-r {
+        font-size: 35px;
+    }
+
+    #texto-nr {
+        font-size: 35px;
+    }
+
+
+
+    /* Seccion de imagenes */
+
+    .img-menu {
+        margin: 5px;
+    }
+
+    .img-menu > img {
+        width: 130px;
+    }
+
+    .img-menu > h3 {
+        font-size: 13px;
+    }
+
+    .img-menu:hover {
+        box-shadow: none;
+    }
+
+    #renovables-footer > ul > li > a:hover {
+        color: #000;
+    }
+
+    #no-renovables-footer > ul > li > a:hover {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    #parrafos-footer > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 275px) {
+    .img-menu > img {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 276px) and (max-width: 296px) {
+    .img-menu > img {
+        width: 110px;
+    }
+}
+
+@media screen and (min-width: 297px) and (max-width: 317px) {
+    .img-menu > img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    #parrafos-footer > p {
+        font-size: 13px;
+    }
+}
+
+
+
+/* PUNTO DE RUPTURA CON CARACTERÍSTICAS COMPARTIDAS DE LA @media ANTERIOR */
+
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    /* Header responsive */
+    
+    #header > h1 {
+        font-size: 32px;
+        margin-left: 13%;
+    }
+
+
+    header label img {
+        width: 28px;
+        height: 23px;
+        cursor: pointer;
+    }
+
+    header label {
+        display: flex;
+        margin-left: 80%;
+        position: absolute;
+        top: 8px;
+    }    
+
+
+    /* Footer resopnsive */
+    
+    #fin-pag {
+        width: 100%;
+        height: 390px;
+        background-color: #b9fff2;
+        padding: 5px;
+        position: relative;
+    }
+    
+    #parrafos-footer > p {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 6px;
+    }
+
+
+    /* Renovables */
+    
+    #renovables-footer {
+        margin-left: 21%;
+        position: absolute;
+        font-size: 14px;
+        top: 52%;
+        color: rgba(41, 180, 41, 0.8);
+    }
+
+
+    /* No renovables */
+
+    
+    #no-renovables-footer {
+        margin-left: 54%;
+        position: absolute;
+        top: 52%;
+        font-size: 14px;
+        color: rgba(210, 0, 0, 0.8);
+    }
+
+
+    /* Contenido principal */
+
+    #texto-introduccion > p {
+        font-size: 22px;
+    }
+
+    #energia {
+        font-size: 30px;
+    }
+
+    .que-es-la-energia {
+        font-size: 20px;
+    }
+
+    #renovables {
+        font-size: 20px;
+    }
+
+    #no-renovables {
+        font-size: 20px;
+    }
+
+
+    /* Seccion de imagenes */
+
+
+
+    .img-menu > img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 443px) and (max-width: 463px) {
+    .img-menu > img {
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 423px) and (max-width: 442px) {
+    .img-menu > img {
+        width: 180px;
+    }
+
+    #header > h1 {
+        font-size: 29px;
+    }
+
+    header label {
+        top: 5px;
+    }
+}
+
+@media screen and (min-width: 402px) and (max-width: 422px) {
+    .img-menu > img {
+        width: 170px;
+    }
+
+    #header > h1 {
+        font-size: 28px;
+    }
+
+    header label {
+        top: 5px;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 401px) {
+    .img-menu > img {
+        width: 160px;
+    }
+
+    header label {
+        top: 5px;
+        margin-left: 84%;
+    }
+
+    #header > h1 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width: 390px) {
+    header label img {
+        width: 25px;
+        height: 22px;
+    }
+
+    header label {
+        top: 5px;
+        margin-left: 83%;
+    }
+
+    .img-menu > img {
+        width: 160px;
+    }
+
+    #header > h1 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 371px) and (max-width: 380px) {
+    .img-menu > img {
+        width: 150px;
+    }
+
+    #header > h1 {
+        font-size: 27px;
+    }
+
+    header label {
+        top: 4px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 370px) {
+    #header > h1 {
+        font-size: 27px;
+    }
+
+    header label {
+        top: 3px;
+        margin-left: 83%;
+    }
+
+    #renovables-footer {
+        top: 53%;
+    }
+
+    #no-renovables-footer {
+        top: 53%;
+    }
+
+    #fin-pag {
+        height: 400px;
+    }
+
+    .img-menu > img {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 339px) and (max-width: 359px) {
+    .img-menu > img {
+        width: 140px;
+    }
+
+    #header > h1 {
+        font-size: 25px;
+    }
+
+    header label {
+        top: 4px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 338px) {
+    .img-menu > img {
+        width: 130px;
+    }
+
+    #header > h1 {
+        font-size: 25px;
+    }
+
+    header label {
+        top: 4px;
+        margin-left: 83%;
+    }
+
+    #header label img {
+        width: 23px;
+        height: 20px;
+    }
+}
+
+
+@media screen and (min-width: 250px) and (max-width: 310px) {
+    #header > h1 {
+        font-size: 20px;
+    }
+
+    header label {
+        top: 1px;
+    }
+}
+
+
+
+
+
+/* PUNTO DE RUPTURA DE 480px A 767px */
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* Header responsive */
+
+    #logo {
+        display: inline-block;
+    }
+
+    #header > h1 {
+        top: 6px;
+        position: absolute;
+        font-size: 32px;
+        margin-left: 7%;
+    }
+    header {
+        height: 60px;
+    }
+
+
+    header label img {
+        width: 28px;
+        height: 23px;
+        cursor: pointer;
+    }
+
+    header label {
+        display: flex;
+        margin-left: 85%;
+        position: absolute;
+        top: 9px;
+    }    
+
+    .menu {
+        margin-top: 4px;
+        margin-left: 69%;
+        position: absolute;
+        background-color: #FAD961;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);        
+        width: 30%;
+        display: none;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .menu ul {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu {
+        display: block;
+    } 
+
+    #navegacion a {
+        display: none;
+    }    
+    
+
+
+
+    /* Footer resopnsive */
+    
+    #fin-pag {
+        width: 100%;
+        height: 390px;
+        background-color: #b9fff2;
+        padding: 5px;
+        position: relative;
+    }
+    
+    .tipos-footer {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #parrafos-footer {
+        position: absolute;
+        top: 90px;
+    }
+    
+    #parrafos-footer > p {
+        font-size: 17px;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 6px;
+    }
+
+    /* Renovables */
+    
+    #renovables-footer {
+        margin-left: 30%;
+        position: absolute;
+        font-size: 12px;
+        top: 55%;
+        color: rgba(41, 180, 41, 0.8);
+    }
+
+    /* No renovables */
+
+    
+    #no-renovables-footer {
+        margin-left: 50%;
+        position: absolute;
+        top: 55%;
+        font-size: 12px;
+        color: rgba(210, 0, 0, 0.8);
+    }
+    
+    #informacion-footer > h4 {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    #informacion-footer > h3 {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+
+
+    /* Contenido principal */
+
+    #texto-introduccion > p {
+        font-size: 26px;
+    }
+
+    #energia {
+        font-size: 30px;
+    }
+
+    .que-es-la-energia {
+        font-size: 23px;
+    }
+
+    #renovables {
+        font-size: 23px;
+    }
+
+    #no-renovables {
+        font-size: 23px;
+    }
+
+    #p-energia {
+        font-size: 40px;
+        border: 3px #000 solid;
+        margin: 65px -2% 0 -2%;
+    }
+
+    #texto-r {
+        font-size: 35px;
+    }
+
+    #texto-nr {
+        font-size: 35px;
+    }
+
+
+
+    /* Seccion de imagenes */
+
+    .img-menu {
+        margin: 5px;
+    }
+
+    .img-menu > h3 {
+        font-size: 13px;
+    }
+
+    .img-menu:hover {
+        box-shadow: none;
+    }
+
+    #renovables-footer > ul > li > a:hover {
+        color: #000;
+    }
+
+    #no-renovables-footer > ul > li > a:hover {
+        color: #000;
+    }
+}
+
+@media screen and (min-width: 735px) and (max-width: 767px) {
+    .img-menu > img {
+        width: 212px;
+    }
+}
+
+@media screen and (min-width: 704px) and (max-width: 734px) {
+    .img-menu > img {
+        width: 202px;
+    }
+}
+
+@media screen and (min-width: 673px) and (max-width: 703px) {
+    .img-menu > img {
+        width: 192px;
+    }
+}
+
+@media screen and (min-width: 642px) and (max-width: 672px) {
+    .img-menu > img {
+        width: 182px;
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 641px) {
+    .img-menu > img {
+        width: 172px;
+    }
+}
+
+@media screen and (min-width: 579px) and (max-width: 609px) {
+    .img-menu > img {
+        width: 162px;
+    }
+}
+
+@media screen and (min-width: 548px) and (max-width: 578px) {
+    .img-menu > img {
+        width: 152px;
+    }
+}
+
+@media screen and (min-width: 517px) and (max-width: 547px) {
+    .img-menu > img {
+        width: 142px;
+    }
+}
+
+@media screen and (min-width: 492px) and (max-width: 516px) {
+    .img-menu > img {
+        width: 132px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 491px) {
+    .img-menu > img {
+        width: 122px;
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 767px) {
+        
+    #parrafos-footer > p {
+        font-size: 19px;
+    }
+
+    #renovables-footer {
+        font-size: 15px;
+        top: 50%;
+    }
+
+    #no-renovables-footer {
+        font-size: 15px;
+        top: 50%;
+    }
+
+    #fin-pag {
+        height: 430px;
+    }
+}
+
+
+
+
+
+/* PUNTO DE RUPTURA 768px */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #parrafos-footer {
+        width: 60%;
+    }
+
+    #fin-pag {
+        height: 320px;
+        position: absolute;
+    }
+
+    #navegacion {
+        margin-left: 75%;
+        top: 23px;
+    }
+
+    #texto-introduccion > p {
+        font-size: 26px;
+    }
+
+    .que-es-la-energia {
+        font-size: 23px;
+    }
+
+    #renovables {
+        font-size: 23px;
+    }
+
+    #no-renovables {
+        font-size: 23px;
+    }
+
+    #renovables-footer {
+        margin-left: 60%;
+        top: 70px;
+    }
+
+    #no-renovables-footer {
+        margin-left: 76%;
+        top: 70px;
+    }
+
+    #energia-eolica, #energia-geotermica, #energia-solar, #energia-undimotriz, #energia-petroleo, #energia-gas {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (min-width: 790px) and (max-width: 814px) {
+    #energia-eolica, #energia-geotermica, #energia-solar, #energia-undimotriz, #energia-petroleo, #energia-gas {
+        margin-left: 9%;
+    }
+}
+
+@media screen and (min-width: 815px) and (max-width: 859px){
+    #energia-eolica, #energia-geotermica, #energia-solar, #energia-undimotriz, #energia-petroleo, #energia-gas {
+        margin-left: 11%;
+    }
+}
+
+@media screen and (min-width: 860px) and (max-width: 899px) {
+    #energia-eolica, #energia-geotermica, #energia-solar, #energia-undimotriz, #energia-petroleo, #energia-gas {
+        margin-left: 13%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 929px) {
+    #energia-eolica, #energia-geotermica, #energia-solar, #energia-undimotriz, #energia-petroleo, #energia-gas {
+        margin-left: 14%;
+    }
+}
+
+@media screen and (min-width: 930px) and (max-width: 999px) {
+    #energia-eolica, #energia-geotermica, #energia-solar, #energia-undimotriz, #energia-petroleo, #energia-gas {
+        margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1023px) {
+    #energia-eolica, #energia-geotermica, #energia-solar, #energia-undimotriz, #energia-petroleo, #energia-gas {
+        margin-left: 18%;
+    }
+}
+
+
+
+
+/* PUNTO DE RUPTURA A 1024px */
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    #fin-pag {
+        height: 300px;
+        position: absolute;
+    }
+
+    #parrafos-footer {
+        width: 65%;
+    }
+
+    #no-renovables-footer {
+        margin-left: 80%;
+        top: 60px;
+    }
+
+    #renovables-footer {
+        margin-left: 68%;
+        top: 60px;
+    }
+
+    #texto-introduccion > p {
+        font-size: 26px;
+    }
+
+    .que-es-la-energia {
+        font-size: 23px;
+    }
+
+    #renovables {
+        font-size: 23px;
+    }
+
+    #no-renovables {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1129px) {
+    #energia-eolica, #energia-hidraulica, #energia-undimotriz, #energia-petroleo, #energia-nuclear {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1130px) and (max-width: 1179px) {
+    #energia-eolica, #energia-hidraulica, #energia-undimotriz, #energia-petroleo, #energia-nuclear {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1214px) {
+    #energia-eolica, #energia-hidraulica, #energia-undimotriz, #energia-petroleo, #energia-nuclear {
+        margin-left: 8%;
+    }
+}
+
+@media screen and (min-width: 1215px) and (max-width: 1249px) {
+    #energia-eolica, #energia-hidraulica, #energia-undimotriz, #energia-petroleo, #energia-nuclear {
+        margin-left: 9%;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1342px) {
+    #energia-eolica, #energia-hidraulica, #energia-undimotriz, #energia-petroleo, #energia-nuclear {
+        margin-left: 12%;
+    }
+}

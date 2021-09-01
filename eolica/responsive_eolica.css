@@ -1,0 +1,675 @@
+@media screen and (min-width: 1200px) {
+    
+    #parrafos-footer {
+        width: 65%;
+        position: absolute;
+        top: 130px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) { 
+
+    /* Header responsive */
+
+    #logo {
+        display: none;
+    }
+
+    #header > h1 {
+        font-size: 22px;
+        margin-left: 10%;
+    }
+
+
+    header label img {
+        width: 23px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    header label {
+        display: flex;
+        margin-left: 80%;
+        position: absolute;
+        top: 3px;
+    }    
+
+    .menu {
+        margin-top: 4px;
+        margin-left: 69%;
+        position: absolute;
+        background-color: #FAD961;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%); 
+        width: 30%;
+        display: none;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .menu ul {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu {
+        display: block;
+    } 
+
+    #navegacion a {
+        display: none;
+    }    
+
+
+
+    /* Footer resopnsive */
+    
+    #fin-pag {
+        width: 100%;
+        height: 380px;
+        background-color: #b9fff2;
+        padding: 5px;
+        position: relative;
+    }
+    
+    .tipos-footer {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #parrafos-footer {
+        position: absolute;
+        top: 90px;
+    }
+    
+    #parrafos-footer > p {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 6px;
+    }
+
+    /* Renovables */
+    
+    #renovables-footer {
+        margin-left: 13%;
+        position: absolute;
+        font-size: 12px;
+        top: 54%;
+        color: rgba(41, 180, 41, 0.8);
+    }
+
+    /* No renovables */
+
+    
+    #no-renovables-footer {
+        margin-left: 50%;
+        position: absolute;
+        top: 54%;
+        font-size: 12px;
+        color: rgba(210, 0, 0, 0.8);
+    }
+    
+    #informacion-footer > h4 {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    #informacion-footer > h3 {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+@media screen and (max-width: 250px) {
+    #parrafos-footer > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    #parrafos-footer > p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+/* PUNTO DE RUPTURA CON CARACTERÍSTICAS COMPARTIDAS DE LA @media ANTERIOR */
+
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    /* Header responsive */
+    
+    #header > h1 {
+        font-size: 30px;
+        margin-left: 13%;
+    }
+
+
+    header label img {
+        width: 28px;
+        height: 23px;
+        cursor: pointer;
+    }
+
+    header label {
+        display: flex;
+        margin-left: 80%;
+        position: absolute;
+        top: 8px;
+    }    
+
+
+    /* Footer resopnsive */
+    
+    #fin-pag {
+        width: 100%;
+        height: 390px;
+        background-color: #b9fff2;
+        padding: 5px;
+        position: relative;
+    }
+    
+    #parrafos-footer > p {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 6px;
+    }
+
+
+    /* Renovables */
+    
+    #renovables-footer {
+        margin-left: 21%;
+        position: absolute;
+        font-size: 14px;
+        top: 52%;
+        color: rgba(41, 180, 41, 0.8);
+    }
+
+
+    /* No renovables */
+
+    
+    #no-renovables-footer {
+        margin-left: 54%;
+        position: absolute;
+        top: 52%;
+        font-size: 14px;
+        color: rgba(210, 0, 0, 0.8);
+    }
+}
+
+@media screen and (min-width: 423px) and (max-width: 442px) {
+
+    #header > h1 {
+        font-size: 28px;
+    }
+
+    header label {
+        top: 5px;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 401px) {
+
+    header label {
+        top: 5px;
+        margin-left: 84%;
+    }
+
+    #header > h1 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width: 390px) {
+    header label img {
+        width: 25px;
+        height: 22px;
+    }
+
+    header label {
+        top: 5px;
+        margin-left: 83%;
+    }
+
+    #header > h1 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 371px) and (max-width: 380px) {
+
+    #header > h1 {
+        font-size: 27px;
+    }
+
+    header label {
+        top: 4px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 370px) {
+
+    #header > h1 {
+        font-size: 27px;
+    }
+
+    header label {
+        top: 3px;
+        margin-left: 83%;
+    }
+
+    #renovables-footer {
+        top: 53%;
+    }
+
+    #no-renovables-footer {
+        top: 53%;
+    }
+
+    #fin-pag {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 339px) and (max-width: 359px) {
+
+    #header > h1 {
+        font-size: 25px;
+    }
+
+    header label {
+        top: 4px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 338px) {
+
+    #header > h1 {
+        font-size: 25px;
+    }
+
+    header label {
+        top: 4px;
+        margin-left: 83%;
+    }
+
+    #header label img {
+        width: 23px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 310px) {
+    #header > h1 {
+        font-size: 20px;
+    }
+
+    header label {
+        top: 1px;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    /* contenido principal */
+
+    #imagen-inicio-eolica {
+        margin: 0 0 80px 0;
+    }
+    
+    #imagen-inicio-eolica > img {
+        width: 90%;
+    }
+    
+    .informacion-eolica > h2 {
+        font-size: 35px;
+    }
+    
+    .informacion-eolica > p {
+        margin: 0 0 30px 0;
+        font-size: 23px;
+    }
+    
+    .ul-list-eolica > li > p {
+        font-size: 20px;
+    }
+    
+    .ventajas-y-desventajas-eolica > h3 {
+        font-size: 28px;
+    }
+    
+    #desventajas-eolica {
+        margin: 50px 0 0 0;
+    }
+    
+    #imagen-eolica {
+        margin: 80px 0 0 0;
+    }
+    
+    #imagen-eolica > img {
+        width: 83%;
+        border: 3px solid #000;
+    }
+}
+
+
+/* PUNTO DE RUPTURA DE 480px A 767px */
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* Header responsive */
+
+    #logo {
+        display: inline-block;
+    }
+
+    #header > h1 {
+        top: 6px;
+        position: absolute;
+        font-size: 32px;
+        margin-left: 7%;
+    }
+    header {
+        height: 60px;
+    }
+
+
+    header label img {
+        width: 28px;
+        height: 23px;
+        cursor: pointer;
+    }
+
+    header label {
+        display: flex;
+        margin-left: 85%;
+        position: absolute;
+        top: 9px;
+    }    
+
+    .menu {
+        margin-top: 4px;
+        margin-left: 69%;
+        position: absolute;
+        background-color: #FAD961;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%); 
+        width: 30%;
+        display: none;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .menu ul {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu {
+        display: block;
+    } 
+
+    #navegacion a {
+        display: none;
+    }    
+    
+
+
+
+    /* Footer resopnsive */
+    
+    #fin-pag {
+        width: 100%;
+        height: 390px;
+        background-color: #b9fff2;
+        padding: 5px;
+        position: relative;
+    }
+    
+    .tipos-footer {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #parrafos-footer {
+        position: absolute;
+        top: 90px;
+    }
+    
+    #parrafos-footer > p {
+        font-size: 17px;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 6px;
+    }
+
+    /* Renovables */
+    
+    #renovables-footer {
+        margin-left: 30%;
+        position: absolute;
+        font-size: 12px;
+        top: 55%;
+        color: rgba(41, 180, 41, 0.8);
+    }
+
+    /* No renovables */
+
+    
+    #no-renovables-footer {
+        margin-left: 50%;
+        position: absolute;
+        top: 55%;
+        font-size: 12px;
+        color: rgba(210, 0, 0, 0.8);
+    }
+    
+    #informacion-footer > h4 {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    #informacion-footer > h3 {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    #renovables-footer {
+        margin-left: 30%;
+        top: 55%;
+    }
+
+    #renovables-footer > ul > li > a:hover {
+        color: #000;
+    }
+
+    #no-renovables-footer > ul > li > a:hover {
+        color: #000;
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 767px) {
+        
+    #parrafos-footer > p {
+        font-size: 19px;
+    }
+
+    #renovables-footer {
+        font-size: 15px;
+        top: 50%;
+    }
+
+    #no-renovables-footer {
+        font-size: 15px;
+        top: 50%;
+    }
+
+    #fin-pag {
+        height: 430px;
+    }
+}
+
+
+
+/* PUNTO DE RUPTURA 768px */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* contenido principal */
+    
+    #imagen-inicio-eolica > img {
+        width: 80%;
+    }
+    
+    #imagen-eolica > img {
+        width: 80%;
+        border: 3px solid #000;
+    }
+
+
+    /* Footer y navegacion */
+    #parrafos-footer {
+        width: 60%;
+    }
+
+    #fin-pag {
+        height: 320px;
+        position: absolute;
+    }
+
+    #navegacion {
+        margin-left: 75%;
+        top: 23px;
+    }
+
+    #renovables-footer {
+        margin-left: 60%;
+        top: 70px;
+    }
+
+    #no-renovables-footer {
+        margin-left: 76%;
+        top: 70px;
+    }
+}
+
+
+
+/* PUNTO DE RUPTURA A 1024px */
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    #fin-pag {
+        height: 300px;
+        position: absolute;
+    }
+
+    #parrafos-footer {
+        width: 65%;
+    }
+
+    #no-renovables-footer {
+        margin-left: 80%;
+        top: 60px;
+    }
+
+    #renovables-footer {
+        margin-left: 68%;
+        top: 60px;
+    }
+}
+
+
+
+/* Area de impresión */
+
+@media print {
+
+    body {
+        background-color: #fff;
+    }
+
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #imagen-inicio-eolica {
+        display: none;
+    }
+
+    #imagen-eolica {
+        display: none;
+    }
+
+    .informacion-eolica h2 {
+        font-size: 30px;
+    }
+
+    .informacion-eolica p {
+        margin: 0 0 30px 0;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .ul-list-eolica {
+        font-size: 20px;
+    }
+
+    .ul-list-eolica li {
+        margin-top: 13px;
+    }
+
+    .imprimir-pag {
+        display: none;
+    }
+
+    .ventajas-y-desventajas-eolica {
+        margin-top: 70px;
+    }
+
+    #desventajas-eolica{
+        margin-top: 60px;
+    }
+}
